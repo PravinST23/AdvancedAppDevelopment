@@ -1,0 +1,50 @@
+.homepage{
+    height: 92vh;
+    background-image: url("D:\App Development\my-app\src\assets\css\images\snapedit_1708605263090.png"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .theme {
+    width: 150px;
+    background-color: #8b8787;
+    outline: none;
+    box-shadow: 10px 10px 10px rgba(50, 50, 50, 0.5);
+    height: 49px;
+    border-radius: 49px;
+    color: #000000;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: 0.5s;
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 350;
+    font-style: normal;
+    font-size: 17px;
+    text-decoration: none;
+
+  }
+  .content{
+    font-size: 20px;
+    text-align: center;    
+     padding-top: 100px; 
+     color: rgb(0, 0, 0);
+     font-weight: bold;
+     animation: slideInFromLeft 0.7s ease-out forwards;
+  }
+  .type{
+    margin-top: 30px;
+  }
+  @keyframes slideInFromLeft {
+    0% {
+      opacity: 0;
+      transform: translateY(100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+    
+  .theme:hover{
+    background-color: #c6c6c6;
+  }
