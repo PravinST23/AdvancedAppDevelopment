@@ -1,0 +1,153 @@
+/* Profile.css */
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:200,400,600&display=swap');
+
+/* Container for the entire profile */
+.profile-container {
+    background-image: url("D:\App Development\my-app\src\assets\css\images\snapedit_1708605263090.png"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 92vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.profile-card {
+    width: 400px;
+    height: 600px;
+    /* background-color: black; */
+    box-shadow: 10px 10px 10px rgba(59, 59, 59, 0.5);
+
+  border-radius: 4px;
+  overflow: hidden; /* Ensure that the gradient doesn't overflow */
+  transition: box-shadow 0.5s ease-in-out;
+  animation: slideInFromLeft 0.8s ease-out forwards;
+  border-radius: 20px;
+  /* background-color:grey; */
+}
+
+.profile-card:hover {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.gradient-container {
+  background-color: rgb(205, 201, 201) ;
+  /* background: linear-gradient(to left, rgb(88, 85, 85) 0%, rgb(217, 215, 215) 60%, #f3f3f3ce 80%, rgb(236,236,236) 100%); */
+
+  display: flex;
+  justify-content: space-between;
+  /* background-image: url("D:\task-manager-app\src\base-apperal-comming-soon\img\ian-stauffer-bH7kZ0yazB0-unsplash.jpg"); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 150px;
+  /* border-radius: 50%;   */
+}
+
+
+.profile-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-image img {
+  height: 120px;
+  width: 120px;
+  margin-top: -60px;
+  border-radius: 50%;
+  padding: 5px;
+  background-color: white;
+  background-size: contain;
+  background-position: center;
+  /* background-repeat: no-repeat; */
+}
+
+
+/* Add this to your existing CSS file or create a new one */
+.navbar-right button{
+  background-color: transparent;
+  border: none;
+  color: white;
+}.profile-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.info-row {
+  display: flex;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  align-items: center; /* Align items vertically in the center */
+}
+
+.info-row p {
+  margin: 0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.info-row-data {
+  position: absolute;
+  flex-grow: 1; /* Allow the right data to grow and take up remaining space */
+  display: flex;
+  margin-left: 60px;
+}
+
+.info-row-data p {
+  word-wrap: break-word; /* Allow long words to break and wrap */
+}
+
+
+.profile-bottom {
+    background-color: rgb(205, 201, 201) ;
+    /* background: linear-gradient(to left, rgb(88, 85, 85) 0%, rgb(217, 215, 215) 60%, #f3f3f3ce 80%, rgb(236,236,236) 100%);  */
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profile-bottom-btn {
+    width: calc(100% - 270px);
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #7a7878;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    color: black;
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 350;
+    font-style: normal;
+    font-size: 17px;
+    text-decoration: none;
+    border: 1px solid black;
+}
+.profile-bottom-btn:hover{
+  background-color: red;
+}
+
+/* Add more styling as needed */
+
+.profile-content{
+    background: linear-gradient(to right, rgb(88, 85, 85) 0%, rgb(217, 215, 215) 60%, #f3f3f3ce 80%, rgb(236,236,236) 100%);
+    height: 350px;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    opacity: 0;
+    transform: translatey(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translatey(0);
+  }
+}
