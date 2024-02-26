@@ -243,6 +243,7 @@
     padding-right: 220px;
     display: flex;
     align-items: center;
+    background: transparent;
     /* justify-content: center; */
 }
 .remember-forgot p{
