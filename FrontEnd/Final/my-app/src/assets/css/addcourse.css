@@ -1,0 +1,249 @@
+.add-course-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    place-items: center;
+    height: 92vh;
+    background-image: url("D:\App Development\my-app\src\assets\css\images\snapedit_1709029649755.jpeg"); 
+    background-position:center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.enquiry-left {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.enquiry-right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.enquiry-form {
+    width: 70%;
+    height: 70vh;
+    padding: 40px;
+    background-color: #b0b0b0;
+    border-radius: 40px;
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 10px 10px 10px rgba(59, 59, 59, 0.5);
+}
+
+.form-group {
+    /* margin-top: 40px; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.enquiry-form h2 {
+    text-align: center;
+    font-family: "Satisfy", cursive;
+    font-weight: 200px;
+    font-style: normal;
+    font-size: 35px;
+}
+
+.enquery-input-field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    width: 80%;
+    height: 55px;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #c9c9c9;
+    font-weight: 500;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.enquiry-form-items input::placeholder {
+    font-weight: 500;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.enquery-input-field:focus {
+    outline: none;
+}
+
+.input-select {
+    margin-bottom: 15px;
+    width: 80%;
+    height: 55px;
+    padding: 15px;
+    margin-left: 50px;
+    border-radius: 10px;
+    border-bottom: 2px solid #ccc;
+    border: 1px solid black;
+    font-weight: 500;
+    font-family: 'Lora', serif;
+    font-weight: bold; 
+    font-size: 15px;
+    background-color: #c9c9c9;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+    transition: border-bottom-color 0.3s;
+}
+
+.input-select:focus {
+    outline: none;
+}
+
+.input-select option {
+    font-weight: 500;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+
+
+.enquiry-form button {
+    margin-top: 15px;
+    margin-left: 39%;
+    width: 110px;
+    height: 45px;
+    padding: 12px;
+    background-color: #1b98e0;
+    color: #000000;
+    border: 1px solid black;
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 350;
+    font-size: 17px;
+    font-style: normal;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px rgba(50, 50, 50, 0.5);
+}
+
+.enquiry-form button:hover {
+    background-color: #c0c0c0;
+}
+
+.enquiry-form button:focus {
+    outline: none;
+}
+
+@media screen and (max-width: 600px) {
+    .enquiry-form {
+        width: 80%;
+    }
+}
+
+.enquiry-form-items {
+    margin-top: 20px;
+}
+
+.enquiry-form-message {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-querry-button {
+    position: relative;
+    top: 20px;
+}
+
+.input12345-icons {
+    position: relative;
+}
+
+.input12345-icons input {
+    padding-left: 50px;
+}
+
+.input12345-icons svg {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #535354;
+}
+
+.input-with-icon {
+    position: relative;
+}
+
+.input-with-icon svg {
+    position: absolute;
+    top: 50%;
+    left: 60px;
+    transform: translateY(-50%);
+    color: #535354;
+}
+
+.input-with-icon input {
+    padding-left: 50px;
+}
+
+.photo123{
+    display: flex;
+    /* margin-left: 5%; */
+    margin-top: 20px;
+    border-radius: 50px;
+    margin-bottom: 30px;
+    width: 70%;
+    height: 70%;
+    background-image: url("D:\App Development\my-app\src\assets\css\images\img.png");
+    background-size: cover;
+    /* border: 1px solid rgb(5, 5, 5); */
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+   box-shadow: 10px 10px 10px rgba(59, 59, 59, 0.5);
+}
+
+
+
+.container1234567{
+  width: 60%;
+  height: 60vh;
+  background-color: #000000;
+  background-image: url("D:\App Development\my-app\src\assets\css\images\Untitled design 3.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  border-radius: 50px;
+}
+
+.container1234567 h1{
+        text-align: center;
+        font-family: "Satisfy", cursive;
+        text-shadow: 10px 10px 10px #4a4a4a;
+        font-weight: 600;
+        font-style: normal;
+        color: rgb(255, 255, 255);
+        font-size: 42px;
+        /* border: 1px solid black; */
+        /* margin-bottom: 20px;  */
+}
+.image-placeholder {
+    font-size: 16px;
+    color: #999; /* Placeholder color */
+    cursor: pointer;
+  }
+  
+  .image-placeholder:hover {
+    text-decoration: underline; /* Underline the placeholder when hovered */
+  }
+  

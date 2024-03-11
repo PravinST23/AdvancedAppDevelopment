@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&family=Satisfy&display=swap');
+.homepage{
+    height: 92vh;
+    background-image: url("D:\App Development\my-app\src\assets\css\images\snapedit_1709029649755.jpeg"); 
+    background-color: rgba(255, 255, 255, 0.5);
+    background-position:center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .theme {
+    width: 150px;
+    /* background-color:rgba(48, 139, 214); */
+    background-color: #00aaff;
+    outline: none;
+    box-shadow: 10px 10px 10px rgba(50, 50, 50, 0.5);
+    height: 49px;
+    border-radius: 49px;
+    
+    color: rgb(0, 0, 0);
+    margin: 10px 0;
+    cursor: pointer;
+    transition: 0.5s;
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 350;
+    font-style: normal;
+    font-size: 17px;
+    text-decoration: none;
+
+  }
+  .content{
+    z-index: 1;
+    /* opacity: 1; */
+
+    font-size: 33px;
+    text-align: center;    
+    padding-top: 100px; 
+    font-weight: 200px;
+    font-family: "Satisfy";
+    font-style: normal;
+    color: rgb(0, 0, 0);
+     /* color: rgb(46, 130, 203); */
+    font-weight: bold;
+    /* border: 1px solid black; */
+    animation: slideInFromLeft 0.7s ease-out forwards;
+  }
+  .type{
+    margin-top: 30px;
+  }
+  @keyframes slideInFromLeft {
+    0% {
+      opacity: 0;
+      transform: translateY(100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+    
+  .theme:hover{
+    background-color: #c6c6c6;
+  }

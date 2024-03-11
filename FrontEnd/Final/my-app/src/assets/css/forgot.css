@@ -1,0 +1,100 @@
+.forgot-password-container-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .forgot-password-container {
+    width: 500px;
+    height: 500px;
+    background-color: rgba(221,230,234,255);
+    border: 1px solid #000000;
+    border-radius: 40px;
+    padding: 20px;
+    /* border-radius: 5px; */
+    box-shadow: 10px 10px 10px rgba(59, 59, 59, 0.5);
+  }
+  
+  .forgot-password-header h2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-family: "Satisfy", cursive;
+    font-weight: 200px;
+    font-style: normal;
+  }
+  
+  .input-field {
+    margin-bottom: 20px;
+  }
+  
+  .input-field-inputs {
+    /* margin-left: 20px;
+    width: 90%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px; */
+    width: calc(100% - 70px);
+    margin-top: 10px;    
+    margin-left: 30px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    border-color: #aaa;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 15px;
+  }
+  
+  .reset-password-btn {
+    width: 27%;
+    height: 40px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 160px;
+    background-color: #00aaff;
+    color: black;
+    border: none;
+    border: 1px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 350;
+    font-style: normal;
+    font-size: 17px;
+    
+  }
+  
+  .reset-password-btn:hover {
+    background-color: #b0aeae;
+  }
+  
+  .login-link {
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-top: 10px;
+    /* margin-left: "90px"; */
+  }
+  
+  .login-link a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .login-link a:hover {
+    text-decoration: underline;
+  }
+
+  .fingerprint-1234{
+    position: absolute;
+  top: 50%;
+  left: 20px; 
+  transform: translateY(-50%);
+  color: #646465;
+  /* font-size: 50px; */
+  }

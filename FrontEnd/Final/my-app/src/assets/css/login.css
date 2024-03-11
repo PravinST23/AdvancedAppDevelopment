@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&family=Satisfy&display=swap');
+.page {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: linear-gradient(to right, rgb(66, 65, 65) 0%, rgb(236,236,236) 55%, #e6e6e6ce 65%, rgb(236,236,236) 100%); */
+}
+
+.logincontainer {
+    width: 850px;
+    height: 65vh;
+    display: flex;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px rgba(59, 59, 59, 0.5);
+    border-color: black;
+    border-width: 80px;
+    background-color: rgb(236, 236, 236);
+    border: 1px solid rgb(105, 104, 104);
+}
+
+.logocontainer {
+    height: 65vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(149, 147, 147, 0.821);
+    border-radius: 50px 0px 0px 50px;
+    padding-top: 25px;
+    background-image: url("D:\App Development\my-app\src\assets\css\images\snapedit_1709029649755.jpeg");
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size: contain;
+    border: 1px solid black;
+}
+
+.Title123{
+    margin-top: 211px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: #00aaff;
+    /* text-shadow: 5px 2px 8px #000000; */
+
+}
+
+.logocontainer p {
+    display: flex;
+    /* border: 1px solid black ; */
+    padding-left: 15px;
+    font-family: "Satisfy", cursive;
+    font-weight: 150;
+    font-style: normal;
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+    /* box-shadow: ; */
+}
+
+.imgcontainer {
+    width: 300px;
+    height: 40vh;
+    margin-left: 15%;
+    padding-top: 20px;
+}
+
+.imgcontainer img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border: 1px solid black;
+}
+
+
+
+.iconbadge {
+    margin-top: 80px;
+    display: flex;
+    margin-left: 90px;
+    font-size: 35px;
+    font-weight: bolder;
+    align-items: center;
+}
+
+.fieldcontainer h1 {
+    padding-left: 22%;
+    padding-top: 28%;    
+    padding-bottom: 20px;
+    /* color: rgb(183, 80, 20); */
+    /* color: #001b47; */
+}
+
+.fieldcontainer input {
+    width: calc(100% - 70px);
+    margin-top: 20px;    
+    margin-left: 30px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    border-color: #aaa;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+.fieldcontainer button {
+    width: calc(100% - 270px);
+    margin-top: 25px;
+    margin-left: 120px;
+    padding: 10px;
+    /* background-color: rgba(46, 64, 109, 0.71); */
+    /* background-color: rgba(219,123,69,255); */
+    /* background-color: rgba(68, 86, 129, 0.753); */
+    /* background-color: rgba(100, 99, 99, 0.789); */
+    background-color: #00aaff;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    color: black;
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 350;
+    font-style: normal;
+    font-size: 17px;
+    text-decoration: none;
+    border: 1px solid black;
+}
+
+/* .fieldcontainer button:hover {
+    background-color: #fbfdff;
+} */
+
+.fieldcontainer hr {
+    margin-left: 10px;
+    margin-right: 10px;
+    border: none;
+    height: 1px;
+    background-color: #303030;
+}
+
+.fieldcontainer p {
+    padding-left: 80px;
+}
+
+.fieldcontainer {
+    height: 65vh;
+    width: 50%;
+    background-color: rgba(221,230,234,255);
+    /* background-color: rgb(236, 236, 236); */
+    display: flex;
+    flex-direction: column;
+    border-radius: 0px 50px 50px 0px;
+    position: relative;
+    overflow: hidden;
+}
+
+@keyframes slideInFromTop {
+    from {
+        transform: translateY(-100%);
+    }
+    to {
+        transform: translateY(0%);
+    }
+}
+
+@keyframes slideOutToTop {
+    from {
+        transform: translateY(100%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+.fieldcontainer.sign-in-visible {
+    animation: slideInFromTop 0.5s ease forwards;
+}
+
+.fieldcontainer.sign-out-visible {
+    animation: slideOutToTop 0.5s ease forwards;
+}
+
+.sign-up-form {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: transform 0.5s ease; 
+    /* background-color: rgb(200, 204, 208); */
+    background-color: rgba(217, 200, 174, 0.115);
+    /* background-color: rgb(189, 192, 195); */
+    
+
+}
+.fieldcontainer.sign-in-visible .sign-up-form {
+    transform: translateY(0%); 
+    /* background-color: rgb(178, 210, 250); */
+    /* background-color: rgb(189, 192, 195); */
+    background-color: rgba(217, 200, 174, 0.115);
+}
+
+.signupfield h1{
+    padding-left: 22%;
+    padding-top: 14%;
+    padding-bottom: 20px;
+}
+
+.signupfield button{
+    margin-left: 130px;
+}
+.signupfield input{
+    padding: 15px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+.sign-up-form a{
+    text-decoration: none;
+}
+
+.role-slider {
+    display: flex;
+    width: 70%;
+    margin-left: 55px;
+    gap: 5px;
+  }
+  
+  .role-option {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    border: 1px solid #b0aeae;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+    color:#000000;
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 250;
+    font-style: normal;
+    border: 1px solid black;
+  }
+  
+  .role-option.selected {
+    /* background-color: #0d3780dc; */
+    background-color: rgba(100, 99, 99, 0.789);
+    /* background-color: rgba(109,181,184,255); */
+
+    color: #ffffff;
+  }
+  
+  .role-option input {
+    display: none;
+  }
+
+
+ .input-icon {
+    position: relative;
+}
+
+.input-icon input {
+    padding-left: 45px; 
+}
+
+.input-icon svg {
+    position: absolute;
+    top: 60%;
+    left: 35px;
+    transform: translateY(-50%);
+    color: #646465;
+}
+
+
+.remember-forgot{
+    margin: 0%;
+    width:90%;
+    padding-right: 220px;
+    display: flex;
+    align-items: center;
+    background: transparent;
+    /* justify-content: center; */
+}
+.remember-forgot p{
+    margin: 0%;
+    width: auto;
+    padding-top: 16px;
+    white-space: nowrap;
+    justify-content: center;
+    background-color: #fcf8f8;
+    padding-left: 5px;
+}
+.remember-forgot input[type="checkbox"] {
+    left:0%;
+    padding-top: 100px;
+    background: transparent;
+}
+
+.remember-forgot a {
+    padding-left: 88px;
+    white-space: nowrap;
+    /* color: #350430; */
+    padding-top: 16px;
+    text-decoration: none;
+}
+
+.fieldcontainer button:hover{
+    background-color: #aaa;
+}
+
+.required-message{
+    color: red;
+    width: 50%;
+    /* padding-left:10px; */
+    white-space: nowrap;
+    display: flex;
+    justify-content: column;
+
+  }
